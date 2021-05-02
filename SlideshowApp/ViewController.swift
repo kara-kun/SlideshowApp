@@ -30,12 +30,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     //--------------------表示する複数の写真を配列に読み込む------------------------
         while let image = UIImage(named: "image0\(imageArray.count).jpg") {
-            print(imageArray.count)
+            //print(imageArray.count)
             imageArray.append(image)
         }
         //imageArrayに格納された写真枚数の合計を、numberOfSheetsに格納しておく。
         numberOfSheets = imageArray.count - 1
-        print(numberOfSheets)
+        //print(numberOfSheets)
         //最初の一枚をslide(UIImageView)に表示する
         slide.image = imageArray[index]
     }
