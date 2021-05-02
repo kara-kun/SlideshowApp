@@ -20,7 +20,7 @@ class SecondViewController: UIViewController, UIScrollViewDelegate {
 
         // Do any additional setup after loading the view.
         //トップ画面で表示していた画像を拡大表示
-        magnifiedView.image = UIImage(named: "Image0\(slideNumber)")
+        magnifiedView.image = UIImage(named: "image0\(slideNumber).jpg")
     }
     /*
     // MARK: - Navigation

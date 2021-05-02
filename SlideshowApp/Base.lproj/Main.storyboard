@@ -75,6 +75,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backButton" destination="AEg-Kb-x6t" id="EFz-sF-54r"/>
+                        <outlet property="nextButton" destination="qSC-Gm-Kja" id="sFC-NA-Huh"/>
                         <outlet property="playButton" destination="RBn-KK-0yo" id="UlZ-sW-uc8"/>
                         <outlet property="slide" destination="y02-Er-5iq" id="vXP-9x-TJu"/>
                     </connections>
